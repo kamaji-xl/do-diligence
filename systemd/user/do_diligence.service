@@ -1,0 +1,15 @@
+[Unit]
+Description=Do your due diligence and verify SHA256 hashes.
+
+[Service]
+Type=simple
+ExecStart=%h/bin/do_diligence.sh
+Restart=on-failure
+RestartSec=2
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

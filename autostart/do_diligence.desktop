@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Do Diligence (systemd)
+Exec=systemctl --user start do_diligence.service
+Hidden=false
+NoDisplay=false
+X-XFCE-Autostart-enabled=true
+Terminal=false
