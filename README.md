@@ -13,10 +13,15 @@
 
 - Linux desktop with a user `systemd` session
 	- *Was written and tested on Kali, your mileage may vary with other distros.*
-- `inotifywait`
-- `sha256sum`
+- `gawk`
+	- `awk`
+- `inotify-tools`
+	- `inotifywait`
+- `coreutils`
+	- `sha256sum`
 - `xclip` or `xsel` for clipboard access
-- `paplay` for sound playback
+- `pulseaudio-utils`
+	- `paplay` for sound playback
 
 ## Installation
 
